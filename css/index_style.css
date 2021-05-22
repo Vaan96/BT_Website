@@ -1,0 +1,281 @@
+html, body {
+    font-size: 1em !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: auto;
+
+    scroll-behavior: smooth;
+}
+
+
+/* Nav bar*/
+
+    .navBar {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 5em;
+        box-shadow: 0em 0em 0.4em 0em;
+        background-color: white;
+        opacity: 0.95;
+        z-index: 1;
+    }
+
+    /* Nav Bar Logo*/
+        .navBar_Logo {
+            width: 10em;
+            height: 100%;
+            display: block;
+        }
+
+        .navBar_Logo > a,img{
+            display: block;
+            width: 4em;
+            margin: auto;
+        }
+
+        ._navBar_Logo {
+            padding-top: 0.5em !important;
+            margin: auto !important;
+        }
+    /***************/
+
+    /* Nav Bar Buttons*/
+        .navBar_Button_Container {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            margin: auto;
+            margin-right: 0;
+        }
+
+        .navBar_Button_Div {
+            display: block;
+            width: 10em;
+            margin-top: 2em;
+        }
+
+        .navBar_Button {
+            /*Reset Properties*/
+            background-color: transparent;
+            color: black;
+            border: none;
+            margin: 0;
+            padding: 0;
+            /***************/
+
+            display: block;
+            margin: auto;
+            height: 2em;
+            width: 10em;
+            transition: 0.3s;
+            transition-timing-function: ease-in;
+        }
+
+        .navBar_Button_Div > p,a {
+            margin: 0 !important;
+            padding: 0 !important;
+            text-decoration: none;
+        }
+
+        .navBar_Button:hover {
+            /*Reset Properties*/
+            background-color: transparent;
+            color: black;
+            border: none;
+            margin: 0;
+            padding: 0;
+            /***************/
+
+            font-size: 0.9em;
+
+            border-bottom: 0.1em solid black;
+
+            display: block;
+            margin: auto;
+            height: 2em;
+            width: 10em;
+        }
+    /***************/
+
+
+    /* Nav Bar Contact Button*/
+        .navBar_ContactButton_Container {
+            width: 20%;
+            height: 100%;
+            display: block;
+            margin: auto;
+            margin-right: 0;
+        }
+
+        .navBar_ContactButton_Div {
+            display: block;
+            width: 50%;
+            margin: auto;
+            margin-top: 1.5em;
+            
+        }
+
+        .navBar_ContactButton {
+            display: block;
+            margin: auto;
+
+            /*Reset Properties*/
+            background-color: transparent;
+            color: black;
+            border: none;
+            /***************/
+
+            background-color: #46bac7;
+            width: 10em;
+            height: 2.5em;
+            border-radius: 1em;
+            color: white;
+            transition: 0.3s;
+            
+        }
+
+        .navBar_ContactButton_Div > a,p{
+            text-decoration: none;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .navBar_ContactButton:hover {
+            display: block;
+            margin: auto;
+
+            /*Reset Properties*/
+                background-color: transparent;
+                color: black;
+                border: none;
+            /***************/
+
+            background-color: #3f959e;
+            width: 10em;
+            height: 2.5em;
+            border-radius: 1em;
+            color: white;
+
+            box-shadow: 0em 0em 0.2em 0em black;
+        }
+    /***************/
+
+/***************/
+
+
+/* Main Page Section */
+
+    /*Main Page Container*/
+        .mainPage_Container {
+            width: 80%;
+            display: block;
+            margin: auto;
+        }
+    /***************/
+
+    /*Background Image Container*/
+        .backgroundImage_Container {
+            background-color: black;
+            background-image: url("../assets/img/bg_image.png");
+            display: block;
+            width: 100%;
+            
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding-top: 5em;
+            height: 55em;
+        }
+    /***************/
+
+
+
+
+
+    /*Background Image Main Title Container*/
+        .backgroundImage_MainTitle {
+            display: flex;
+            width: 40em;
+            padding-top: 3em;
+            padding-left: 5em;
+        }
+
+        .backgroundImage_MainTitle_Logo{
+            width: 25%;
+        }
+
+        .backgroundImage_MainTitle_Logo > img {
+            margin: 0;
+            width: 80%;
+        }
+
+        .backgroundImage_MainTitle_Title h1 {
+            border-bottom: 0.1em solid black;
+            padding-bottom: 0.5em;
+        }
+
+
+    /***************/
+
+
+    /* About Us Section */
+        .aboutUs_Container {
+            margin-top: 5em;
+            display: block;
+            width: 70%;
+            margin: auto;
+
+            box-shadow: 0em 0em 0em 0em black;
+
+            margin-bottom: 5em;
+
+           padding-top: 6em;
+            
+        }
+        /* About Us Image Container */
+            .aboutUs_Image {
+                width: 100%;
+                margin-right: 5em;
+                margin-bottom: 5em;
+            }
+
+            .aboutUs_Image > img {
+                width: 25%;
+                margin: auto;
+            }
+        /***************/
+
+        /* About Us Text Container */
+            .aboutUs_Text {
+                width: 100%;
+                text-align: justify;
+            }
+
+            .aboutUs_Text > h2,p {
+                margin: 0;
+                padding: 0;
+            }
+
+            .aboutUs_Text > h2 {
+                width: 75%;
+                margin: auto;
+                text-align: center;
+                border-bottom: 0.1em solid black;
+                padding-bottom: 0.5em;
+                margin-bottom: 2.5em;
+            }
+
+        /***************/
+
+    /***************/
+
+
+/***************/
