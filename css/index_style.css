@@ -143,8 +143,8 @@ html, body {
 
         .navBar_ContactButton_Div > a,p{
             text-decoration: none;
-            margin: 0 !important;
-            padding: 0 !important;
+            margin: 0 ;
+            padding: 0 ;
         }
 
         .navBar_ContactButton:hover {
@@ -183,7 +183,7 @@ html, body {
     /*Background Image Container*/
         .backgroundImage_Container {
             background-color: black;
-            background-image: url("../assets/img/bg_image.png");
+            background-image: url("../assets/img/bg.png");
             display: block;
             width: 100%;
             
@@ -276,6 +276,112 @@ html, body {
         /***************/
 
     /***************/
+
+    /* Certeficate / Solutions Section */
+        .certeficates_Section {
+            width: 70%;
+            display: block;
+            margin: auto;
+            padding-top: 6em ;
+            
+        }
+
+        .certeficates_Title {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 3em;
+        }
+
+        .certeficates_Title > h2 {
+            width: 75%;
+            margin: 0;
+            padding: 0;
+
+            border-bottom: 0.1em solid black;
+            margin: auto;
+        }
+
+        .certeficates_Container {
+            display: flex;
+        }
+
+        .certeficate_Content {
+            width: 30%;
+            margin-right: 3em;
+        }
+
+        .certeficate_Content > h3 {
+
+            margin: 0;
+            padding: 0;
+
+            display: block;
+            width: 70%;
+            margin: auto;
+            padding-bottom: 0.5em;
+            border-bottom: 0.1em solid black;
+            text-align: center;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+
+        .certeficate_Content > p {
+            
+            margin: 0;
+            padding: 0;
+
+            display: block;
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+
+        }
+
+        .certeficate_Content > img {
+            width: 45%;
+            display: block;
+            margin: auto;
+        }
+
+    /***************/
+
+    /* Location Section */
+        .location_Section{
+            display: block;
+            width: 70%;
+            padding-top: 6em;
+            margin: auto;
+        }
+
+        .location_Title {
+            display: block;
+            width: 100%;
+            margin: auto;
+            margin-bottom: 5em;
+            
+        }
+
+        .location_Title > h2 {
+            padding: 0;
+            margin: 0;
+
+            width: 75%;
+            display: block;
+            margin: auto;
+
+            text-align: center;
+            padding-bottom: 0.5em;
+            border-bottom: 0.1em solid black;
+        }   
+
+        #googleMap {
+            
+        }
+
+
+    /***************/
+
+
 
 
 /***************/
